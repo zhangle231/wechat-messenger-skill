@@ -39,7 +39,7 @@ skills install https://github.com/zhangle231/wechat-messenger-skill
 
 In OpenClaw, simply say:
 ```
-给李鑫发消息：今天下午3点开会
+给小明发消息：今天下午3点开会
 ```
 
 The skill will:
@@ -51,13 +51,13 @@ The skill will:
 ### PowerShell Direct Call
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File "C:\Users\zhang\.qclaw\skills\wechat-messenger\scripts\wechat_send.ps1" -Contact "李鑫" -Message "测试消息"
+powershell -ExecutionPolicy Bypass -File "C:\Users\zhang\.qclaw\skills\wechat-messenger\scripts\wechat_send.ps1" -Contact "小明" -Message "测试消息"
 ```
 
 ### Python Direct Call
 
 ```bash
-& "D:\LEO\bin\anaconda3\python.exe" "C:\Users\zhang\.qclaw\skills\wechat-messenger\scripts\wechat_send_win9.py" "李鑫" "测试消息"
+& "D:\LEO\bin\anaconda3\python.exe" "C:\Users\zhang\.qclaw\skills\wechat-messenger\scripts\wechat_send_win9.py" "小明" "测试消息"
 ```
 
 ## ⚙️ Configuration
